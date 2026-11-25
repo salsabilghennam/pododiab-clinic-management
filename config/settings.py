@@ -90,4 +90,7 @@ STATIC_URL = "static/"
 STATICFILES_DIRS = [BASE_DIR / "static"]
 STATIC_ROOT = BASE_DIR / "staticfiles"
 
+# Private files (patient documents) are never served through a public URL.
+MEDIA_ROOT = BASE_DIR / "private_media"
+
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
