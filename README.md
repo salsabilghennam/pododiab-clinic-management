@@ -4,16 +4,13 @@ Pododiab is a web-based clinic management system for a private podiatry and
 diabetic-foot clinic. It replaces paper patient files with a centralised,
 role-separated system for the clinic's doctor and assistant.
 
+main
 
 ## Sprint status
 
 **Sprint 1 — Foundation** · 7–28 November 2026
 
 In progress:
-
-- repository and team workflow;
-- Django 5.2 project skeleton;
-- PostgreSQL 16 database schema;
 - repeatable seed data, tests and CI.
 
 Not in this sprint:
@@ -23,7 +20,7 @@ Not in this sprint:
 - patient and consultation screens;
 - permission UI.
 
-
+main
 ## Stack
 
 | Layer | Choice |
@@ -90,7 +87,7 @@ pododiab/
   squash-merge.
 - Never commit `.env`, database files, or real patient information.
 
-
+main
 
 ## Data safety
 
