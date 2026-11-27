@@ -4,8 +4,6 @@ Pododiab is a web-based clinic management system for a private podiatry and
 diabetic-foot clinic. It replaces paper patient files with a centralised,
 role-separated system for the clinic's doctor and assistant.
 
-> This repository is the final team rebuild. The earlier AI-generated MVP is
-> used only as a reference; it is not the deliverable.
 
 ## Sprint status
 
@@ -25,7 +23,6 @@ Not in this sprint:
 - patient and consultation screens;
 - permission UI.
 
-See [docs/sprint-1-steps.md](docs/sprint-1-steps.md) for the full team runbook.
 
 ## Stack
 
@@ -41,8 +38,6 @@ See [docs/sprint-1-steps.md](docs/sprint-1-steps.md) for the full team runbook.
 
 ## Quick start
 
-> The Django skeleton is being added during Sprint 1. The commands below are the
-> target setup and will work once S1-02 and S1-03 are merged.
 
 ```bash
 cp .env.example .env
@@ -95,9 +90,7 @@ pododiab/
   squash-merge.
 - Never commit `.env`, database files, or real patient information.
 
-## Documentation
 
-- [Sprint 1 step-by-step guide](docs/sprint-1-steps.md)
 
 ## Data safety
 
